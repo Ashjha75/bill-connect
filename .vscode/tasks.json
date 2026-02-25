@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "🚀 Spring Boot: Run",
+            "type": "shell",
+            "command": "wsl bash -c \"cd '/mnt/c/Users/Ashish jha/Desktop/bill-connect/server' && ./mvnw spring-boot:run\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true,
+                "focus": true
+            },
+            "problemMatcher": [
+                {
+                    "owner": "java",
+                    "pattern": {
+                        "regexp": "^.*\\.java:(\\d+).*$",
+                        "file": 0,
+                        "line": 1
+                    },
+                    "background": {
+                        "activeOnStart": true,
+                        "beginsPattern": "Starting Application",
+                        "endsPattern": "Started Application"
+                    }
+                }
+            ],
+            "isBackground": true
+        }
+    ]
+}
