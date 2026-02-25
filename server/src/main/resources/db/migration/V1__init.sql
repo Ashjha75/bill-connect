@@ -1,0 +1,12 @@
+-- ============================================
+-- V1: Baseline migration for bill-connect
+-- ============================================
+-- This is the initial Flyway migration.
+-- Add your table definitions below as the application grows.
+-- Example:
+-- CREATE TABLE users (
+--     id BIGSERIAL PRIMARY KEY,
+--     email VARCHAR(255) NOT NULL UNIQUE,
+--     password VARCHAR(255) NOT NULL,
+--     created_at TIMESTAMP NOT NULL DEFAULT NOW()
+-- );
